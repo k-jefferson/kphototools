@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KPhotoTools"
         mc:Ignorable="d"
-        Title="K Photo Tools" Height="450" Width="500">
+        Title="K Photo Tools" Height="450" Width="800">
     <Grid>
-        <TextBox Name="TextBox_WorkingDirectory" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="306"/>
-        <Button Name="Button_StartTask" Margin="350,10,0,0" Height="23" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_StartTask_ClickAsync">Run</Button>
+        <TextBox Name="TextBox_WorkingDirectory" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="606"/>
+        <Button Name="Button_StartTask" Margin="650,10,0,0" Height="23" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_StartTask_ClickAsync">Run</Button>
 
         <!-- Delete raw from jpg -->
         <RadioButton Name="RadioButton_DeleteRawFromJpg" GroupName="RadioGroup_Task" Margin="10,66,0,0" Width="180" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top">Delete RAWs from JPGs</RadioButton>
@@ -17,7 +17,10 @@
         <Label Margin="300,47,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">Extension RAW</Label>
         <TextBox Name="TextBox_RawExtension" Margin="300,73,0,0" Width="100" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" />
 
+        <!-- Move raws to a subfolder -->
+        <RadioButton Name="RadioButton_MoveRaws" GroupName="RadioGroup_Task" Margin="10,116,0,0" Width="180" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top">Move RAWs to a subfolder</RadioButton>
+        
         <!-- Log -->
-        <TextBlock Name="TextBlock_Log" Margin="10,108,0,0" Width="470" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <TextBlock Name="TextBlock_Log" Margin="10,148,0,0" Width="470" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" />
     </Grid>
 </Window>

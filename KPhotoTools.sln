@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPhotoTools", "KPhotoTools\KPhotoTools.csproj", "{97E3DCD6-CE36-4203-A7B6-FFA281AFB234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97E3DCD6-CE36-4203-A7B6-FFA281AFB234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E3DCD6-CE36-4203-A7B6-FFA281AFB234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E3DCD6-CE36-4203-A7B6-FFA281AFB234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E3DCD6-CE36-4203-A7B6-FFA281AFB234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFFD2B1F-C2A3-4B9F-BEE6-AFCE6D3E2289}
+	EndGlobalSection
+EndGlobal

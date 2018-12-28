@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KPhotoToolsLibrary\KPhotoToolsLibrary.csproj">
+      <Project>{765bc7fb-8398-4a96-a6fc-4f847c229dc2}</Project>
+      <Name>KPhotoToolsLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
